@@ -1,0 +1,427 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/images/Cream\ Brown\ Simple\ Aesthetic\ Coffee\ Drink\ Promo\ Product\ Instagram\ Post.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+ display: flex;
+ font-size: 22px;
+ gap: 50px;
+ width: 45%;
+ color: rgb(255, 255, 255);
+ justify-content: end;
+ left: 100px;
+ align-items: center;
+ cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cap {
+    font-size: 18px;
+    display: flex;
+    text-align: start;
+    transition: 1s;
+    align-items: center;
+    position: relative;
+    right: 250px;
+    
+}
+
+.cap:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.cap h1 {
+    margin-top: 5px;
+}
+
+.cap img {
+width: 80px;
+}
+
+main {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px; 
+    gap: 40px;
+    color: rgb(114, 86, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: sienna;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+
+#content p {
+    margin-top: -10px;
+    font-size: 20px;
+    color: sienna;
+}
+
+.ap {
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(189, 151, 102);
+    background-color: burlywood;
+    border: 0px solid;
+    
+}
+
+.ad {
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+
+.add {
+    font-size: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#container:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    
+}
+
+span {
+    color: rgb(69, 184, 65);
+}
+
+.dap {
+    width: 100%;
+    background-color: rgb(190, 137, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.dap img {
+    width: 120px;
+    
+}
+
+.dep {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: start;
+}
+
+
+
+#vap img {
+    width: 70px;
+    margin-top: 25px;
+}
+
+#vep {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+   background-color: rgb(190, 137, 99);
+   margin-top: -20px;
+}
+
+#vep .dap {
+    margin-top: 30px;
+}
+
+#vep img {
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+#vip  {
+    height: 115px;
+} 
+
+#vip img {
+    height: 80px;
+}
+
+#vop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 137, 99);
+}
+
+#vop img {
+    width: 95px;
+    margin-top: 15px;
+}
+
+
+#vup {
+      width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 137, 99);
+}
+
+#vup img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#container p {
+   margin-top: -20px;
+}
+
+.ep {
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    color: rgb(207, 162, 124);
+    font-size: 22px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: saddlebrown;
+}
+
+footer p {
+    color: rgb(77, 77, 77);
+    font-size: 17px;
+}
+
+footer h1 {
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+footer h3 {
+    margin-top: 0px;
+    position: relative;
+    font-size: 22px;
+    top: 30px;
+}
+
+.jab {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.jab:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 251, 242);
+    margin-top: 100px;
+    width: 800px;
+    gap: 20px;
+    padding: 20px;
+    font-family: cursive;
+    border-radius: 20px;
+}
+
+.carder {
+    color: rgb(66, 66, 66);
+}
+
+.carder h1 {
+    color: saddlebrown;
+}
+
+#card p {
+    max-width: 330px;
+
+}
+
+
+.adddd {
+    width: 250px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 89, 60);
+    border-radius: 20px;
+}
+
+.addd {
+    font-size: 100px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+#box {
+    background-color: rgb(59, 43, 28);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    gap: 30px;
+    width: 800px;
+}
+
+.boxes p {
+ color: rgb(255, 255, 255);
+ max-width: 200px;
+ font-family: cursive;
+}
+
+.bag h2 {
+    margin-left: 40px;
+}
+
+.bag ul {
+    max-width: 200px;
+    color: white;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+.addddd {
+    color: black;
+}
+
+
+@media (max-width: 760px)  {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        background-color: rgb(238, 214, 183);
+    }
+
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+     main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .container {
+        width: 80%;
+     }
+
+     .ad {
+        color: burlywood;
+     }
+
+     .jab {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+     }
+
+     .jab h3 {
+        margin-top: -40px;
+     }
+
+     .jab p {
+        margin-top: 10px;
+     }
+
+     #card {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+      .adddd {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+     }
+
+     .addddd {
+        margin-left: 30px;
+     }
+
+     #box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+     }
+    
+     .bag {
+        margin-right: 65px;
+     }
+}
